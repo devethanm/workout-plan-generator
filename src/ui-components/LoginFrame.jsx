@@ -119,7 +119,6 @@ export default function LoginFrame(props) {
         {...getOverrideProps(overrides, "SwitchField")}
       ></SwitchField>
       <Button
-        id="login-button"
         width="unset"
         height="unset"
         shrink="0"
@@ -192,7 +191,6 @@ export default function LoginFrame(props) {
           fontFamily="Inter"
           fontSize="16px"
           fontWeight="400"
-          
           color="rgba(13,26,38,1)"
           lineHeight="24px"
           textAlign="left"

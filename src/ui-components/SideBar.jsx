@@ -161,7 +161,7 @@ export default function SideBar(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Manage"
+              children="Pages"
               {...getOverrideProps(overrides, "label39493364")}
             ></Text>
             <Flex
@@ -224,7 +224,7 @@ export default function SideBar(props) {
                 position="relative"
                 padding="0px 0px 0px 0px"
                 whiteSpace="pre-wrap"
-                children="Content"
+                children="Workout"
                 {...getOverrideProps(overrides, "label39493368")}
               ></Text>
             </Flex>
@@ -288,7 +288,7 @@ export default function SideBar(props) {
                 position="relative"
                 padding="0px 0px 0px 0px"
                 whiteSpace="pre-wrap"
-                children="Users"
+                children="Nutrition"
                 {...getOverrideProps(overrides, "label39493372")}
               ></Text>
             </Flex>
@@ -352,7 +352,7 @@ export default function SideBar(props) {
                 position="relative"
                 padding="0px 0px 0px 0px"
                 whiteSpace="pre-wrap"
-                children="Files"
+                children="Progress"
                 {...getOverrideProps(overrides, "label39493376")}
               ></Text>
             </Flex>
@@ -452,134 +452,6 @@ export default function SideBar(props) {
                 whiteSpace="pre-wrap"
                 children="Data"
                 {...getOverrideProps(overrides, "label39493382")}
-              ></Text>
-            </Flex>
-            <Flex
-              gap="8px"
-              direction="row"
-              width="unset"
-              height="unset"
-              justifyContent="flex-start"
-              alignItems="center"
-              shrink="0"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "link39493383")}
-            >
-              <Flex
-                gap="0"
-                direction="row"
-                width="unset"
-                height="unset"
-                justifyContent="flex-start"
-                alignItems="flex-start"
-                shrink="0"
-                position="relative"
-                borderRadius="4px"
-                padding="6px 6px 6px 6px"
-                backgroundColor="rgba(233,249,252,1)"
-                {...getOverrideProps(overrides, "icon39493384")}
-              >
-                <MyIcon
-                  width="18px"
-                  height="18px"
-                  display="block"
-                  gap="unset"
-                  alignItems="unset"
-                  justifyContent="unset"
-                  overflow="hidden"
-                  shrink="0"
-                  position="relative"
-                  padding="0px 0px 0px 0px"
-                  type="storage"
-                  {...getOverrideProps(overrides, "MyIcon39493385")}
-                ></MyIcon>
-              </Flex>
-              <Text
-                fontFamily="Inter"
-                fontSize="16px"
-                fontWeight="400"
-                color="rgba(4,125,149,1)"
-                lineHeight="24px"
-                textAlign="left"
-                display="block"
-                direction="column"
-                justifyContent="unset"
-                letterSpacing="0.01px"
-                width="100px"
-                height="unset"
-                gap="unset"
-                alignItems="unset"
-                shrink="0"
-                position="relative"
-                padding="0px 0px 0px 0px"
-                whiteSpace="pre-wrap"
-                children="Storage"
-                {...getOverrideProps(overrides, "label39493386")}
-              ></Text>
-            </Flex>
-            <Flex
-              gap="8px"
-              direction="row"
-              width="unset"
-              height="unset"
-              justifyContent="flex-start"
-              alignItems="center"
-              shrink="0"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "link39493387")}
-            >
-              <Flex
-                gap="0"
-                direction="row"
-                width="unset"
-                height="unset"
-                justifyContent="flex-start"
-                alignItems="flex-start"
-                shrink="0"
-                position="relative"
-                borderRadius="4px"
-                padding="6px 6px 6px 6px"
-                backgroundColor="rgba(233,249,252,1)"
-                {...getOverrideProps(overrides, "icon39493388")}
-              >
-                <MyIcon
-                  width="18px"
-                  height="18px"
-                  display="block"
-                  gap="unset"
-                  alignItems="unset"
-                  justifyContent="unset"
-                  overflow="hidden"
-                  shrink="0"
-                  position="relative"
-                  padding="0px 0px 0px 0px"
-                  type="authentication"
-                  {...getOverrideProps(overrides, "MyIcon39493389")}
-                ></MyIcon>
-              </Flex>
-              <Text
-                fontFamily="Inter"
-                fontSize="16px"
-                fontWeight="400"
-                color="rgba(4,125,149,1)"
-                lineHeight="24px"
-                textAlign="left"
-                display="block"
-                direction="column"
-                justifyContent="unset"
-                letterSpacing="0.01px"
-                width="unset"
-                height="unset"
-                gap="unset"
-                alignItems="unset"
-                shrink="0"
-                position="relative"
-                padding="0px 0px 0px 0px"
-                whiteSpace="pre-wrap"
-                children="Authentication"
-                {...getOverrideProps(overrides, "label39493390")}
               ></Text>
             </Flex>
           </Flex>
