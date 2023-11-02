@@ -1,6 +1,62 @@
-# Getting Started with Create React App
+# CSC 4022 Secure workout generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+    <img src="./assets/aws.png" alt="Example Image" width="100" style="padding: 20px;"/>
+    <img src="./assets/react.png" alt="Example Image" width="100" style="padding: 20px;"/>
+</div>
+
+
+This project was bootstrapped with [**Create React App**](https://github.com/facebook/create-react-app).
+
+This project utilizes **AWS** services for its backend functionality and security.
+
+## Sections
+- [Project Components](#project-components)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
+    - [Misc](#misc)
+- [Setup and Build](#setup-and-build)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+- [All Available Scripts](#available-scripts)
+  - [`npm start`](#npm-start)
+  - [`npm test`](#npm-test)
+  - [`npm run build`](#npm-run-build)
+  - [`npm run eject`](#npm-run-eject)
+- [Learn More About React](#learn-more-about-react)
+  - [Code Splitting](#code-splitting)
+  - [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+  - [Making a Progressive Web App](#making-a-progressive-web-app)
+  - [Advanced Configuration](#advanced-configuration)
+  - [Deployment](#deployment)
+  - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
+
+## Project Components
+
+Here are the project components and technologies this application uses:
+
+### Frontend
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Figma](https://www.figma.com)
+### Backend
+- AWS Services
+    - [AWS Amplify](https://aws.amazon.com/amplify/) - Backend design and management
+### Misc
+- Git/Github
+
+## Setup and Build
+
+### Prerequisites
+- For setup, local dev, and hosting, you must have the following technologies setup:
+    - git
+    - latest version of [nodejs](https://nodejs.org/en) for npm
+
+### Setup 
+
+How to run the project locally for dev and testing:
+- Run `git clone https://github.com/devethanm/workout-plan-generator` on your local machine
+- Navigate to the workout-plan-generator folder and run `npm install`
 
 ## Available Scripts
 
@@ -39,7 +95,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Learn More About React
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
