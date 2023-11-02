@@ -24,7 +24,7 @@ export declare type LoginFrameOverridesProps = {
     TextField?: PrimitiveOverrideProps<TextFieldProps>;
     PasswordField?: PrimitiveOverrideProps<PasswordFieldProps>;
     SwitchField?: PrimitiveOverrideProps<SwitchFieldProps>;
-    Button38511255?: PrimitiveOverrideProps<FlexProps>;
+    Button38561052?: PrimitiveOverrideProps<ButtonProps>;
     "sign up38511256"?: PrimitiveOverrideProps<FlexProps>;
     "Don't have an account?"?: PrimitiveOverrideProps<TextProps>;
     Button38512227?: PrimitiveOverrideProps<ButtonProps>;

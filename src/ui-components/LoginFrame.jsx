@@ -118,11 +118,17 @@ export default function LoginFrame(props) {
         labelPosition="start"
         {...getOverrideProps(overrides, "SwitchField")}
       ></SwitchField>
-      <Flex
+      <Button
         width="unset"
         height="unset"
-        {...getOverrideProps(overrides, "Button38511255")}
-      ></Flex>
+        shrink="0"
+        alignSelf="stretch"
+        size="small"
+        isDisabled={false}
+        variation="primary"
+        children="Log In"
+        {...getOverrideProps(overrides, "Button38561052")}
+      ></Button>
       <Flex
         gap="8px"
         direction="column"

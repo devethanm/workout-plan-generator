@@ -9,7 +9,9 @@ import {
 function App() {
   return (
     <div className="App">
-      <LoginFrame />
+        <div className="flex justify-center">
+            <LoginFrame/>
+        </div>
     </div>
   );
 }
