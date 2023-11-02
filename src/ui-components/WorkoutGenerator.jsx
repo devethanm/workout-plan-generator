@@ -36,21 +36,16 @@ export default function WorkoutGenerator(props) {
       <SelectField
         width="300px"
         height="unset"
-        label="Select Workout"
+        label="Please Select Workout Goal"
         alignItems="center"
         shrink="0"
+        placeholder="Placeholder"
         size="default"
         isDisabled={false}
         labelHidden={false}
         variation="default"
-
-
         {...getOverrideProps(overrides, "SelectField")}
-      >
-        <option value="arms">Arms</option>
-        <option value="legs">Legs</option>
-        <option value="back">Back</option>
-      </SelectField>
+      ></SelectField>
       <Button
         width="unset"
         height="unset"

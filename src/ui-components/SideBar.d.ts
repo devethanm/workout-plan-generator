@@ -5,8 +5,8 @@
  **************************************************************************/
 
 import * as React from "react";
+import { ButtonProps, FlexProps, TextProps } from "@aws-amplify/ui-react";
 import { MyIconProps } from "./MyIcon";
-import { FlexProps, TextProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -23,30 +23,26 @@ export declare type SideBarOverridesProps = {
     "Frame 32139493355"?: PrimitiveOverrideProps<FlexProps>;
     "Frame 32139493356"?: PrimitiveOverrideProps<FlexProps>;
     "Frame 414"?: PrimitiveOverrideProps<FlexProps>;
-    "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
-    icon39493360?: PrimitiveOverrideProps<FlexProps>;
-    MyIcon39493361?: MyIconProps;
-    label39493362?: PrimitiveOverrideProps<TextProps>;
     Section39493363?: PrimitiveOverrideProps<FlexProps>;
     label39493364?: PrimitiveOverrideProps<TextProps>;
-    link39493365?: PrimitiveOverrideProps<FlexProps>;
-    icon39493366?: PrimitiveOverrideProps<FlexProps>;
-    MyIcon39493367?: MyIconProps;
-    label39493368?: PrimitiveOverrideProps<TextProps>;
-    link39493369?: PrimitiveOverrideProps<FlexProps>;
-    icon39493370?: PrimitiveOverrideProps<FlexProps>;
-    MyIcon39493371?: MyIconProps;
-    label39493372?: PrimitiveOverrideProps<TextProps>;
+    link38671461?: PrimitiveOverrideProps<FlexProps>;
+    icon38673800?: PrimitiveOverrideProps<FlexProps>;
+    MyIcon38673801?: MyIconProps;
+    Button38671464?: PrimitiveOverrideProps<ButtonProps>;
+    link38671669?: PrimitiveOverrideProps<FlexProps>;
+    icon38673743?: PrimitiveOverrideProps<FlexProps>;
+    MyIcon38673744?: MyIconProps;
+    Button38671672?: PrimitiveOverrideProps<ButtonProps>;
     link39493373?: PrimitiveOverrideProps<FlexProps>;
-    icon39493374?: PrimitiveOverrideProps<FlexProps>;
-    MyIcon39493375?: MyIconProps;
-    label39493376?: PrimitiveOverrideProps<TextProps>;
+    icon38673672?: PrimitiveOverrideProps<FlexProps>;
+    MyIcon38673673?: MyIconProps;
+    Button3867654?: PrimitiveOverrideProps<ButtonProps>;
     Section39493377?: PrimitiveOverrideProps<FlexProps>;
     label39493378?: PrimitiveOverrideProps<TextProps>;
-    link39493379?: PrimitiveOverrideProps<FlexProps>;
-    icon39493380?: PrimitiveOverrideProps<FlexProps>;
-    MyIcon39493381?: MyIconProps;
-    label39493382?: PrimitiveOverrideProps<TextProps>;
+    link38672011?: PrimitiveOverrideProps<FlexProps>;
+    icon38672012?: PrimitiveOverrideProps<FlexProps>;
+    MyIcon38672013?: MyIconProps;
+    Button38672014?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type SideBarProps = React.PropsWithChildren<Partial<FlexProps> & {
     overrides?: SideBarOverridesProps | undefined | null;
