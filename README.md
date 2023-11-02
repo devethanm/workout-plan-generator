@@ -30,6 +30,7 @@ This project utilizes **AWS** services for its backend functionality and securit
   - [Advanced Configuration](#advanced-configuration)
   - [Deployment](#deployment)
   - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
+- [Useful References and Resources](#useful-references-and-resources)
 
 ## Project Components
 
@@ -39,6 +40,7 @@ Here are the project components and technologies this application uses:
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Figma](https://www.figma.com)
+    - [Figma Project Design File URL](https://www.figma.com/file/dhfNnd9laNChy3UYKNLHLE/AWS-Amplify-UI-Kit-(Community)?type=design&node-id=2653-2886&mode=design&t=ctMt4jcoswZGgT0I-0)
 ### Backend
 - AWS Services
     - [AWS Amplify](https://aws.amazon.com/amplify/) - Backend design and management
@@ -48,7 +50,7 @@ Here are the project components and technologies this application uses:
 ## Setup and Build
 
 ### Prerequisites
-- For setup, local dev, and hosting, you must have the following technologies setup:
+- For setup, local dev, and hosting, you must have the installed:
     - git
     - latest version of [nodejs](https://nodejs.org/en) for npm
 
@@ -57,6 +59,14 @@ Here are the project components and technologies this application uses:
 How to run the project locally for dev and testing:
 - Run `git clone https://github.com/devethanm/workout-plan-generator` on your local machine
 - Navigate to the workout-plan-generator folder and run `npm install`
+- Watch this [**AWS Amplify CLI setup**](https://www.youtube.com/watch?time_continue=11&v=fWbM5DLh25U&embeds_referring_euri=https%3A%2F%2Fdocs.amplify.aws%2F&feature=emb_logo) video! it tells you exactly how to setup and configure the AWS Amplify CLI which is needed for this project. **You do not need to run the npm install -g @aws-amplify/cli command**. It will already be installed after running `npm install` in the project folder
+- run `amplify push` - This command provisions cloud resources with the configurations defined in your local backend directory (amplify/backend). Therefore, making the project availible in your own AWS account for development and testing
+- Navigate to AWS Amplify in your AWS account, you should see this project there after running the previous command.
+- Open the app and navigate to the **Backend environments** tab
+- Enable Amplify studio
+- Nagigate to amplify studio, and on the left side, navigate to **UI Library** under design.
+- At the top right, click **Sync with Figma**, and use the following Figma Project Design File URL: https://www.figma.com/file/dhfNnd9laNChy3UYKNLHLE/AWS-Amplify-UI-Kit-(Community)?type=design&node-id=2653-2886&mode=design&t=ctMt4jcoswZGgT0I-0
+- Finally, run `npm start` to start the project locally on localhost:3000
 
 ## Available Scripts
 
@@ -124,3 +134,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Useful References and Resources
+- Videos
+    - [How to use React Router for multiple pages on your web app (for beginners)](https://www.youtube.com/watch?v=TWz4TjSssbg)
+    - [AWS Amplify in Plain English | Getting Started Tutorial for Beginners](https://www.youtube.com/watch?v=HdCmo0a3ngM)
+    - [AWS Amplify Fullstack Project Setup (React, Node, Lambda, REST API)](https://www.youtube.com/watch?v=T4MQrRDo20w)
+- Docs
+    - [AWS Amplify CLI](https://docs.amplify.aws/cli/)
