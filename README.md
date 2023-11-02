@@ -142,3 +142,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - [AWS Amplify Fullstack Project Setup (React, Node, Lambda, REST API)](https://www.youtube.com/watch?v=T4MQrRDo20w)
 - Docs
     - [AWS Amplify CLI](https://docs.amplify.aws/cli/)
+    - [AWS Amplify React UI](https://ui.docs.amplify.aws/react)
+    - [AWS Amplify Auth](https://docs.amplify.aws/cli/auth/overview/)
