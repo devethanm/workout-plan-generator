@@ -9,6 +9,7 @@ import { Amplify } from 'aws-amplify';
 
 import awsconfig from './aws-exports';
 
+import "@fontsource/inter" // import inter font
 import "@aws-amplify/ui-react/styles.css";
 import { studioTheme } from "./ui-components";
 
