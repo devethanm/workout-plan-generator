@@ -13,7 +13,7 @@ import "@fontsource/inter" // import inter font
 import "@aws-amplify/ui-react/styles.css";
 import { studioTheme } from "./ui-components";
 
-Amplify.configure(awsconfig);
+Amplify.configure(awsconfig); // configure amplify with the AWS resources in the application
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

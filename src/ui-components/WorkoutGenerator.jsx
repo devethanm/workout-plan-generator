@@ -46,9 +46,6 @@ export default function WorkoutGenerator(props) {
         variation="default"
         {...getOverrideProps(overrides, "SelectField")}
       >
-        <option value="arms">Arms</option>
-        <option value="arms">Legs</option>
-        <option value="arms">Back</option>
       </SelectField>
       <Button
         width="unset"

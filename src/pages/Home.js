@@ -10,7 +10,11 @@ export default function() {
                     <SideBar />
                 </div>
                 <div className="flex-1 flex justify-center items-center overflow-auto">
-                    <WorkoutGenerator />
+                    <WorkoutGenerator
+                        overrides={{ // overrides object used to modify the object's sub components
+                            SelectField: {options: ["Arms", "Legs", "Back"]} // override default 
+                        }} 
+                    />
                 </div>
             </div>
         </div>
