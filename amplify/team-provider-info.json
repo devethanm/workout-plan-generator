@@ -1,14 +1,14 @@
 {
-  "dev": {
+  "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-workoutplangenerator-dev-162124-authRole",
-      "UnauthRoleArn": "arn:aws:iam::341756626779:role/amplify-workoutplangenerator-dev-162124-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::341756626779:role/amplify-workoutplangenerator-dev-162124-authRole",
+      "AuthRoleName": "amplify-amplifyfa5cd0e1e2194-staging-211427-authRole",
+      "UnauthRoleArn": "arn:aws:iam::341756626779:role/amplify-amplifyfa5cd0e1e2194-staging-211427-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::341756626779:role/amplify-amplifyfa5cd0e1e2194-staging-211427-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-workoutplangenerator-dev-162124-deployment",
-      "UnauthRoleName": "amplify-workoutplangenerator-dev-162124-unauthRole",
-      "StackName": "amplify-workoutplangenerator-dev-162124",
-      "StackId": "arn:aws:cloudformation:us-east-1:341756626779:stack/amplify-workoutplangenerator-dev-162124/002b9e40-7905-11ee-8008-0a6dfb9bf873",
+      "DeploymentBucketName": "amplify-amplifyfa5cd0e1e2194-staging-211427-deployment",
+      "UnauthRoleName": "amplify-amplifyfa5cd0e1e2194-staging-211427-unauthRole",
+      "StackName": "amplify-amplifyfa5cd0e1e2194-staging-211427",
+      "StackId": "arn:aws:cloudformation:us-east-1:341756626779:stack/amplify-amplifyfa5cd0e1e2194-staging-211427/231fc580-7b57-11ee-9c69-0a567d707863",
       "AmplifyAppId": "d1qsf2rixw18vi"
     },
     "categories": {

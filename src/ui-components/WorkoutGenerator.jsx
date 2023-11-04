@@ -39,7 +39,6 @@ export default function WorkoutGenerator(props) {
         label="Please Select Workout Goal"
         alignItems="center"
         shrink="0"
-        placeholder="Placeholder"
         size="default"
         isDisabled={false}
         labelHidden={false}
