@@ -59,7 +59,7 @@ Here are the project components and technologies this application uses:
 How to run the project locally for dev and testing:
 - Run `git clone https://github.com/devethanm/workout-plan-generator` on your local machine
 - Navigate to the workout-plan-generator folder and run `npm install`
-- Watch this [**AWS Amplify CLI setup**](https://www.youtube.com/watch?time_continue=11&v=fWbM5DLh25U&embeds_referring_euri=https%3A%2F%2Fdocs.amplify.aws%2F&feature=emb_logo) video! it tells you exactly how to setup and configure the AWS Amplify CLI which is needed for this project. **You do not need to run the npm install -g @aws-amplify/cli command**. It will already be installed after running `npm install` in the project folder
+- Watch this [**AWS Amplify CLI setup**](https://www.youtube.com/watch?time_continue=11&v=fWbM5DLh25U&embeds_referring_euri=https%3A%2F%2Fdocs.amplify.aws%2F&feature=emb_logo) video! it tells you exactly how to setup and configure the AWS Amplify CLI which is needed for this project. You need to run the `npm install -g @aws-amplify/cli command`. 
 - run `amplify push` - This command provisions cloud resources with the configurations defined in your local backend directory (amplify/backend). Therefore, making the project availible in your own AWS account for development and testing
 - Navigate to AWS Amplify in your AWS account, you should see this project there after running the previous command.
 - Open the app and navigate to the **Backend environments** tab
@@ -140,6 +140,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - [How to use React Router for multiple pages on your web app (for beginners)](https://www.youtube.com/watch?v=TWz4TjSssbg)
     - [AWS Amplify in Plain English | Getting Started Tutorial for Beginners](https://www.youtube.com/watch?v=HdCmo0a3ngM)
     - [AWS Amplify Fullstack Project Setup (React, Node, Lambda, REST API)](https://www.youtube.com/watch?v=T4MQrRDo20w)
+    - [Frontend to Full Stack: Modify AWS Amplify Studio Components in Code | Amazon Web Services](https://www.youtube.com/watch?v=VzE_emsi4Dk)
+    - [Adding Cognito Signup and Login to your React App with AWS Amplify](https://www.youtube.com/watch?v=g4qKydnd0vU&list=PLmexTtcbIn_hvPcUm3oAufCtH7dwNAC-g)
 - Docs
     - [AWS Amplify CLI](https://docs.amplify.aws/cli/)
     - [AWS Amplify React UI](https://ui.docs.amplify.aws/react)
