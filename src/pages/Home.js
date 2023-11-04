@@ -31,7 +31,12 @@ export default function() {
                     <SideBar />
                 </div>
                 <div className="flex-1 flex flex-col justify-center items-center overflow-auto">
-                    <h1 className="absolute top-0">Signed in as user: {username}</h1>
+                    <div className="absolute top-0 ">
+                        <h1 className="">Signed in as user: {username}</h1>
+                        <button className='bg-blue-300' 
+                            onClick={() => Auth.signOut()}
+                        >Sign Out</button>
+                    </div>
                     <WorkoutGenerator
                         overrides={{ // overrides object used to modify the object's sub components
                             SelectField: {options: ["Arms", "Legs", "Back"]} // override default 
