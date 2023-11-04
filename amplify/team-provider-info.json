@@ -16,5 +16,23 @@
         "workoutplangenerator": {}
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-workoutplangenerator-prod-154518-authRole",
+      "UnauthRoleArn": "arn:aws:iam::341756626779:role/amplify-workoutplangenerator-prod-154518-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::341756626779:role/amplify-workoutplangenerator-prod-154518-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-workoutplangenerator-prod-154518-deployment",
+      "UnauthRoleName": "amplify-workoutplangenerator-prod-154518-unauthRole",
+      "StackName": "amplify-workoutplangenerator-prod-154518",
+      "StackId": "arn:aws:cloudformation:us-east-1:341756626779:stack/amplify-workoutplangenerator-prod-154518/746ac9e0-7b5b-11ee-a775-122f964b80ed",
+      "AmplifyAppId": "d1qsf2rixw18vi"
+    },
+    "categories": {
+      "auth": {
+        "workoutplangenerator": {}
+      }
+    }
   }
 }
