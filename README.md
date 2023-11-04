@@ -142,7 +142,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - [AWS Amplify Fullstack Project Setup (React, Node, Lambda, REST API)](https://www.youtube.com/watch?v=T4MQrRDo20w)
     - [Frontend to Full Stack: Modify AWS Amplify Studio Components in Code | Amazon Web Services](https://www.youtube.com/watch?v=VzE_emsi4Dk)
     - [Adding Cognito Signup and Login to your React App with AWS Amplify](https://www.youtube.com/watch?v=g4qKydnd0vU&list=PLmexTtcbIn_hvPcUm3oAufCtH7dwNAC-g)
+    - [Clutch video explaining google auth setup in amplify](https://www.youtube.com/watch?v=eqDUSY9KHYE)
 - Docs
     - [AWS Amplify CLI](https://docs.amplify.aws/cli/)
     - [AWS Amplify React UI](https://ui.docs.amplify.aws/react)
     - [AWS Amplify Auth](https://docs.amplify.aws/cli/auth/overview/)
+- Commands
+    - `amplify update auth` - can help fix auth from local and then pushed up using `amplify push`
