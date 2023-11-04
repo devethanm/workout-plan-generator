@@ -10,6 +10,11 @@
       "StackName": "amplify-workoutplangenerator-dev-162124",
       "StackId": "arn:aws:cloudformation:us-east-1:341756626779:stack/amplify-workoutplangenerator-dev-162124/002b9e40-7905-11ee-8008-0a6dfb9bf873",
       "AmplifyAppId": "d1qsf2rixw18vi"
+    },
+    "categories": {
+      "auth": {
+        "workoutplangenerator": {}
+      }
     }
   }
 }

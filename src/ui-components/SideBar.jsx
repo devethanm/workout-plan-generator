@@ -6,16 +6,10 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { useLocation } from 'react-router-dom';
 import { getOverrideProps } from "./utils";
 import { Button, Flex, Text } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function SideBar(props) {
-  // Determine the current page the user is on for styling
-  const location = useLocation();
-  const currentPage = location.pathname;
-  const isActive = (path) => currentPage === path;
-
   const { overrides, ...rest } = props;
   return (
     <Flex
@@ -119,7 +113,6 @@ export default function SideBar(props) {
               {...getOverrideProps(overrides, "link38671461")}
             >
               <Flex
-                class={isActive('/home') ? 'ring-2 shadow-md' : '' /*Custom Styling if active page = Workout/home*/} 
                 gap="0"
                 direction="row"
                 width="unset"

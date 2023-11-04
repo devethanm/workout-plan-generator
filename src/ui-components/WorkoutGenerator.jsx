@@ -26,7 +26,6 @@ export default function WorkoutGenerator(props) {
       {...rest}
     >
       <Heading
-        class="text-2xl md:text-4xl"
         width="unset"
         height="unset"
         shrink="0"
@@ -40,13 +39,13 @@ export default function WorkoutGenerator(props) {
         label="Please Select Workout Goal"
         alignItems="center"
         shrink="0"
+        placeholder="Placeholder"
         size="default"
         isDisabled={false}
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField")}
-      >
-      </SelectField>
+      ></SelectField>
       <Button
         width="unset"
         height="unset"
