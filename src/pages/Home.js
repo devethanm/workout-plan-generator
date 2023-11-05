@@ -14,7 +14,7 @@ export default function() {
     // Create a state to store the user's workout choice
     const [userChoice, updateUserChoice] = useState('Arms'); // update the state to default choice 
     // Create a state to store the custom generated workout
-    const [workout, updateWorkout] = useState('');
+    const [workout, updateWorkout] = useState({tags: [], checks: []});
     // Create a state to store the user's username
     const [username, setUsername] = useState('');
 
@@ -27,7 +27,7 @@ export default function() {
         try {
             const generatedWorkout = await API.get(apiName, apiPath + "/" + userChoice);
             updateWorkout(generatedWorkout);
-            toggleVisibility()
+            toggleVisibility();
         }
         catch (error) {
             console.log(error);
@@ -89,9 +89,15 @@ export default function() {
                                     width: 300,
                                     height: 300,
                                 },
-                                "Classic Long Sleeve T-Shirt": {
-                                    children: workout.type + " Workout"
-                                },
+                                "Classic Long Sleeve T-Shirt": { children: workout.type + " Workout" },
+                                "Information about this product.": { children: workout.description },
+                                "\u201CThis is a quote.\u201C": { children: workout.quote },
+                                "Badge29766804": { children: workout.tags[0] },
+                                "Badge29766805": { children: workout.tags[1]},
+                                "Badge29766806": { children: workout.tags[2]},
+                                "Fast": { children: workout.checks[0] },
+                                "Fun": { children: workout.checks[1] },
+                                "Flirty": { children: workout.checks[2] },
                             }}
                         />
                     </div>
