@@ -10,7 +10,6 @@ export { default as CTASection } from "./CTASection";
 export { default as CheckoutPayment } from "./CheckoutPayment";
 export { default as CommentCard } from "./CommentCard";
 export { default as ContactUs } from "./ContactUs";
-export { default as CustomSidebar } from "./CustomSidebar";
 export { default as DataRow } from "./DataRow";
 export { default as EditProfile } from "./EditProfile";
 export { default as Features2x2 } from "./Features2x2";
