@@ -1,4 +1,20 @@
 {
+  "api": {
+    "api8edc1cd0": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "workoutplangeneratora79fa11a"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "workoutplangenerator": {
       "customAuth": false,
@@ -25,6 +41,31 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "function": {
+    "workoutplangeneratora79fa11a": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_workoutplangeneratora79fa11a_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "workoutplangeneratora79fa11a"
+        }
+      ]
+    },
+    "AMPLIFY_function_workoutplangeneratora79fa11a_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "workoutplangeneratora79fa11a"
+        }
+      ]
     }
   }
 }

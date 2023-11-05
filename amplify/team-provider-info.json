@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "workoutplangenerator": {}
+      },
+      "function": {
+        "workoutplangeneratora79fa11a": {
+          "deploymentBucketName": "amplify-amplifyfa5cd0e1e2194-staging-211427-deployment",
+          "s3Key": "amplify-builds/workoutplangeneratora79fa11a-4e4e674b344649516f47-build.zip"
+        }
+      },
+      "api": {
+        "api8edc1cd0": {}
       }
     }
   },

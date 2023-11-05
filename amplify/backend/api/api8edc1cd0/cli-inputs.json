@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/workout/{workoutType}": {
+      "name": "/workout/{workoutType}",
+      "lambdaFunction": "workoutplangeneratora79fa11a",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
